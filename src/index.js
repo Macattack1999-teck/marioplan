@@ -36,7 +36,6 @@ function AuthIsLoaded({ children }) {
       return children
 }
 
-
 ReactDOM.render(
   <Provider store={store}>
     <ReactReduxFirebaseProvider {...rrfProps}>
